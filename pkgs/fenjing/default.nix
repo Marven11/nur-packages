@@ -35,6 +35,5 @@ buildPythonPackage rec {
     rev = "v0.8.0";
     sha256 = "sha256-K6d85aTKrCE6sJUJvJSJWvr27iv/z7tybb7SBsgF5Wg=";
   };
-  version =
-    (lib.strings.removeSuffix "\n" (builtins.readFile "${src}/VERSION"));
+  version = "0.8.0";
 }
