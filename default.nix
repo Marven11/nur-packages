@@ -16,6 +16,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   fenjing = pkgs.callPackage ./pkgs/fenjing { };
+  ether-ghost = pkgs.callPackage ./pkgs/ether-ghost { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
